@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { dataFake } from 'src/app/data/dataFake';
+import { INoticia } from 'src/app/interfaces/noticia.interface';
 
 @Component({
   selector: 'app-home',
@@ -7,7 +9,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  bigCardData: INoticia = dataFake[0];
+  smallCardsData: INoticia[] = dataFake.slice(1);
 
   ngOnInit(): void {
   }
