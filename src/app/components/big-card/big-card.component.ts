@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { INoticia } from 'src/app/interfaces/noticia.interface';
+import { INews } from 'src/app/interfaces/news.interface';
 
 @Component({
   selector: 'app-big-card',
@@ -7,5 +7,5 @@ import { INoticia } from 'src/app/interfaces/noticia.interface';
   styleUrls: ['./big-card.component.css']
 })
 export class BigCardComponent {
-  @Input() card!: INoticia;
+  @Input() card!: INews;
 }
