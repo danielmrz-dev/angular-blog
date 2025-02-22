@@ -1,0 +1,7 @@
+<div class="container__menu-bar">
+  <ul>
+    <li *ngFor="let social of socialMediaList">
+      <a [href]="social.link" target="_blank" noreferrer noopener>{{ social.social }}</a>
+    </li>
+  </ul>
+</div>
