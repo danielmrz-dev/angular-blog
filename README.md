@@ -1,27 +1,31 @@
-# AngularBlog
+# Projeto Angular Blog - Dio Decola Tech Avanade 2025
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+Desafio de projeto proposto no módulo de `Construindo Aplicações Angular`.
 
-## Development server
+## Tabela de conteúdos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Overview](#overview)
+  - [O projeto](#o-projeto)
+  - [Links](#links)
+- [Autor](#autor)
 
-## Code scaffolding
+## Overview
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### O projeto
 
-## Build
+Os usuários desse projeto devem ser capazes de:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Visualizar a lista completa de matérias do blog;
+- Clicar em uma matéria e ser redirecionado para a página da mesma e ler na íntegra;
+- Retornar à página inicial do blog;
 
-## Running unit tests
+### Links
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Link do deploy da aplicação: [Link](https://angular-blog-rouge-nu.vercel.app/)
 
-## Running end-to-end tests
+## Autor
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- LinkedIn - [@danielmrz-dev](https://www.linkedin.com/in/danielmrz-dev/)
+- Portfolio - [Link](https://danielmrz-portfolio.vercel.app/)
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
